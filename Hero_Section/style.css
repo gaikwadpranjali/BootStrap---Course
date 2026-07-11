@@ -1,0 +1,57 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.logo{
+    letter-spacing: -10px;
+    color:#ffe1e6;
+    margin-left:2px;
+    font-weight:800;
+    font-size: 1.5rem;
+}
+:root{
+    --rose:#e8637a;
+    --rose-dark:#d94f68;
+    --blush:#fbdfe1;
+    --ink:#3a1f28;
+}
+.logo-T{
+    font-size: 2.2rem;
+}
+
+
+
+body{
+    font-family:'poppins' sans-serif;
+    background:#f3d9dc;
+    color:var(--ink);
+    background-color: var(--blush);
+}
+h5{
+    font-size: 3.1rem;
+    font-family: cursive;
+}
+p{
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+.items{
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+    border-color:#fff;
+    transform:scale(1.12)
+}
+.item-row{
+    width:52px;
+    height:52px;
+    border-radius:50%;
+    border:3px solid rgba(255,255,255,.5);
+    overflow: hidden;
+    cursor:pointer;
+    transition:2s;
+}
+   
